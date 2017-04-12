@@ -1,0 +1,12 @@
+.footer {
+  background: #25262a;
+  padding: 25px 10px; }
+  .footer p {
+    text-align: center;
+    color: #fff; }
+    .footer p span {
+      background-image: url(../img/coracao.png);
+      background-repeat: no-repeat;
+      color: transparent;
+      background-size: 24px;
+      background-position: center; }

@@ -1,2 +1,47 @@
-.header h1 {
-  color: red; }
+.header {
+  background: #25262a;
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    padding: 15px 0px; }
+    .header .container a {
+      color: #fff;
+      text-decoration: none; }
+      .header .container a h1 {
+        font-size: 20pt; }
+        .header .container a h1 span {
+          color: #27bcbb;
+          font-size: 10pt; }
+    .header .container div {
+      display: flex; }
+      .header .container div .menu {
+        margin: 0px 25px 0px 0px; }
+        .header .container div .menu ul {
+          display: flex; }
+          .header .container div .menu ul li {
+            list-style: none; }
+            .header .container div .menu ul li a {
+              color: #fff;
+              padding: 10px;
+              font-size: 10pt; }
+      .header .container div ul {
+        display: flex; }
+        .header .container div ul li {
+          list-style: none; }
+          .header .container div ul li .icon-facebook {
+            background-image: url(../img/facebook.png); }
+          .header .container div ul li .icon-linked {
+            background-image: url(../img/linkedin.png); }
+          .header .container div ul li .icon-github {
+            background-image: url(../img/github.png); }
+          .header .container div ul li a {
+            padding: 10px 25px;
+            text-decoration: none;
+            color: transparent;
+            background-repeat: no-repeat;
+            background-position: center; }

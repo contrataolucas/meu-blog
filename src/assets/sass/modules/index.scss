@@ -1,0 +1,152 @@
+.conteudo{
+	.sobre-min{
+		background-color: #25262a;
+		display: flex;
+		justify-content: center;
+		padding: 0px 10px;
+		>div{
+			width: 1140px;
+			padding: 0px 0px 40px 0px;
+			>h2{
+				color: #fff;
+				margin: 50px 0px 30px 0px;
+				text-align: center;
+				font-size: 22pt;
+			}
+			>div{
+				color: #fff;
+				font-size: 12pt;
+				display: flex;
+				>div{
+					display: flex;
+    				align-items: center;
+    				>div{
+    					text-align: justify;
+    					padding: 0px 50px 0px 0px;
+    					p{
+							margin: 0px 0px 20px 0px;
+						}
+    				}
+				}
+				img{
+					border-radius: 100%;
+					border: 5px solid rgba(39, 188, 187,0.3);
+				}
+			}
+			>figure{
+
+			}
+		}
+	}
+	.minhas-habilidades{
+		background: #27bcbb;
+		padding: 15px 10px;
+		display: flex;
+		justify-content: center;
+		color: #fff;
+		>h2{
+		    padding: 0px 15px;
+		    font-weight: 400;
+		}
+		ul{
+			display: flex;
+			align-items: center;
+			li{
+				list-style: none;
+				padding: 0px 25px
+			}
+		}
+	}
+	.ultimos-trabalhos{
+		padding: 15px 10px;
+		display: flex;
+		justify-content: center;
+		>div{
+			width: 1140px;
+			padding: 0px 0px 40px 0px;
+			h2{
+				color: #25262a;
+				margin: 50px 0px 30px 0px;
+				text-align: center;
+				font-size: 22pt;
+			}
+			>div{
+				display: flex;
+				justify-content: space-around;
+			}	
+		}
+	}
+	.ultimos-projetos{
+		padding: 15px 10px;
+		display: flex;
+		justify-content: center;
+		>div{
+			width: 1140px;
+			padding: 0px 0px 40px 0px;
+			h2{
+				color: #25262a;
+				margin: 50px 0px 30px 0px;
+				text-align: center;
+				font-size: 22pt;
+			}
+		}
+	}
+	.postagens-recentes{
+		padding: 15px 10px;
+		display: flex;
+		justify-content: center;
+		>div{
+			width: 1140px;
+			padding: 0px 0px 40px 0px;
+			h2{
+				color: #25262a;
+				margin: 50px 0px 30px 0px;
+				text-align: center;
+				font-size: 22pt;
+			}
+			ul{
+				li{
+					border-left: 3px solid #27bcbb;
+					border-right: 3px solid #27bcbb;
+					display: flex;
+					margin: 0px 0px 40px 0px;
+					figure{
+						width: 100%;
+						img{
+							width: 100%;
+							display: block;
+						}
+					}
+					div{
+						padding: 15px;
+						position: relative;
+						h3{
+						    font-size: 22pt;
+						    color: #666;
+						}
+						time{
+							font-size: 10pt;
+    						color: #888;
+						}
+						p{
+							font-size: 10pt;
+							color: #888;
+							margin: 20px 0px 0px 0px;
+						}
+						a{
+							position: absolute;
+							bottom: 0px;
+							right: 0px;
+							padding: 15px;
+							text-decoration: none;
+							background: #27bcbb;
+							color: #fff;
+							margin: 0px;
+							font-weight: 600;
+						}
+					}
+				}
+			}
+		}
+	}
+}

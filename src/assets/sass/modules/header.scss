@@ -1,0 +1,64 @@
+.header{
+    background: #25262a;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    .container{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1140px;
+		padding: 15px 0px;
+    	a{
+			color: #fff;
+			text-decoration: none;
+			h1{
+				font-size: 20pt;
+				span{
+				    color: #27bcbb;
+				    font-size: 10pt;
+				}
+			}
+		}
+		div{
+			display: flex;
+			.menu{
+				margin: 0px 25px 0px 0px;
+				ul{
+					display: flex;
+					li{
+						list-style: none;
+						a{
+							color: #fff;
+							padding: 10px;
+							font-size: 10pt;
+						}
+					}
+				}
+			}
+			ul{
+				display: flex;
+				li{
+					list-style: none;
+					.icon-facebook{
+						background-image: url(../img/facebook.png);
+					}
+					.icon-linked{
+						background-image: url(../img/linkedin.png);
+					}
+					.icon-github{
+						background-image: url(../img/github.png);
+					}
+					a{
+					    padding: 10px 25px;
+					    text-decoration: none;
+					    color: transparent;
+					    background-repeat: no-repeat;
+					    background-position: center;
+					}
+				}
+			}
+		}
+    }
+	
+}
